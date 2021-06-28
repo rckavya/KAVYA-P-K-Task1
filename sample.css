@@ -1,0 +1,91 @@
+.web{
+    /* position: relative; */
+    margin-left: 0px;
+    position: absolute;
+    left: 58px;
+    width: 1172px;
+    height: 719px;
+}
+#head{
+    background-image: url(sampleimg.jpg);
+    position: absolute;
+    background-repeat: no-repeat;
+    height: 232px;
+    width: 1066px;
+    position: absolute;
+    color: white;
+}
+.navright{
+    height: auto;
+    width: auto;
+    position: relative;
+    left: 868px;
+    top: -491px;
+}
+#shop{
+    height: 2cm;
+}
+.partner{
+    color:black;
+    width:152px;
+	height: 37px;
+	border-radius:5px 5px 5px 5px;
+	background: #757171;
+	padding:10px;
+	font: size 25px;
+	margin-top:8px;
+	border-width: 1px;
+	border-style:solid;
+    font-size:smaller;
+
+}
+#login{
+    color:  #803d3d;
+    background-color: white;
+    margin-top:8px;
+	border-width: 1px;
+	border-style:solid;
+    border-radius:5px 5px 5px 5px;
+
+
+}
+#pizzanap{
+    position: relative;
+    left: 165px;
+    height: 133px;
+    width: 246px;
+    color:white;
+    background-color:#162C00;
+}
+#tab3{
+    position: relative;
+    height: 151px;
+    width: 1067px;
+    top: 239px;
+}
+.tab3content{
+    position: relative;
+    left: 191px;
+    height: 21px;
+}
+.sweetclass{
+    width: 223px;
+    position: relative;
+}
+#endlogo{
+    background-color: #000000c2;
+    color: white;
+    position: relative;
+    height: 237px;
+    width: 370px;
+    top: -61px;
+}
+#end{
+    background-color: rgb(66, 10, 10);
+    color: white;
+    height: 52px;
+    position: relative;
+    top: -113px;
+    text-align: center;
+    width: 1070px;
+}

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="sample.css">
+    <script>
+        $(document).ready(function(){
+            $("#pizza").on({
+                mouseenter: function(){
+                $(this).css("background-color", "red");
+                },  
+                mouseleave: function(){
+                $(this).css("background-color", "silver");
+                }, 
+                click: function(){
+                $(this).css("background-color", "lightblue");
+                }  
+            });
+        });
+        $(document).ready(function(){
+            $(".sweetclass").click(function(){
+                $(".sweetclass").css("color", "red").slideUp(2000).slideDown(2000);
+            });
+        });
+    </script>
+</head>
+<body>
+    <div class="web">
+        <div id="head">
+            
+            <nav class="navbar bg-brown navbar-expand-sm navbar-dark">
+                <a href="" class="navbar-brand">SAC LOGO</a>
+        
+                <ul class="navbar-nav" style="margin-left: auto;">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#work" class="nav-link">Partner Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="login.html" class="nav-link">Login</a> 
+
+                    </li>
+                </ul>
+            </nav>
+            <div id="pizzanap">
+                <p style="font-size:large;font-weight: bolder;font-family: fantasy;">Pizza Napozi</p>
+                <p style="font-size:medium;">japanese cuisnes</p>
+                <p style="font-size: xx-small;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;font-weight: bolder;">Delivery time:30 mins</p>
+            </div>    
+        </div>
+        <div id="tab3"style="background-color:white; ">
+            <div class="tab3content">
+                <h3>Most Popular</h3>
+                <img class="sweetclass" src="sweet corn1.jpg" alt="">
+                <img class="sweetclass" src="sweet corn2.jpg" alt="">
+                <img class="sweetclass" src="sweet corn3.jpg" alt="">
+            </div>
+        </div>
+        <div id="footer" style="border-top:2px solid black; position: relative;bottom: -280px;width: 1068px;">
+            <div style="position: relative;bottom: -39px;">
+                <form action="" style="text-align: center;position: relative;left: -103px; ">
+                    <p>About</p>
+                    <a href="">Blog</a><br>
+                    <a href="">Career</a><br>
+                    <a href="">Press</a>
+                </form>
+                <form action="" style="text-align: center;position: relative;left: -29px;top: -109px;">
+                    <p>Get Help</p>
+                    <a href="">Contact</a><br>
+                    <a href="">FAQ</a>
+                </form>
+                <form action=""style="text-align: center;position: relative;left: 48px;top: -195px;">
+                    <p>Legal</p>
+                    <a href="">Terms</a><br>
+                    <a href="">Privacy</a>
+                </form>
+            </div>
+            <img src="iOS_ajgrty.png" height="60" width="200" alt="" style="position: relative;left: 658px;bottom: 230px;">
+            <img src="play_ip0jfp.png" height="60" width="200" alt="" style="position: relative;left: 667px;bottom: 231px;">
+
+        </div>
+        <div id="endlogo">
+            <p style="text-align: center;font-size: larger;font-weight: bolder;">SAC LOGO</p>
+
+        </div>
+        <div id="end">
+            <p style="text-align: center;">Sac @2020 All Rights Reserved</p>
+
+        </div>
+            
+        
+        
+
+
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="home.css">
+    <script>
+        $(document).ready(function(){
+            $("#pizza").on({
+                mouseenter: function(){
+                $(this).css("background-color", "red");
+                },  
+                mouseleave: function(){
+                $(this).css("background-color", "silver");
+                }, 
+                click: function(){
+                $(this).css("background-color", "lightblue");
+                }  
+            });
+        });
+        $(document).ready(function(){
+            $(".sweetclass").click(function(){
+                $(".sweetclass").css("color", "red").slideUp(2000).slideDown(2000);
+            });
+        });
+    </script>
+</head>
+<body>
+    <div class="web">
+        <div id="head">
+            <nav class="navbar bg-brown navbar-expand-sm navbar-dark">
+                <a href="" class="navbar-brand">SAC LOGO</a>
+        
+                <ul class="navbar-nav" style="margin-left: auto;">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#work" class="nav-link">Partner Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="login.html" class="nav-link">Login</a> 
+
+                    </li>
+                </ul>
+            </nav>
+            <div id="headcontent">
+                <p>Local Kitchens,<br>
+                    changing menus &<br>
+                    <p style="font-weight: bolder; font-family:Verdana, Geneva, Tahoma, sans-serif;">a new takeaway experience</p>
+                    
+                </p>
+                <i style="height: 4px;color: white;position: relative;left: 2px;" class="fa fa-map-marker" aria-hidden="true"></i>
+                <input  for="" placeholder="location" id="restnt"></input>
+                <button id="restautant">Find Your restautant</button>
+            </div>
+            <div id="deliverylogo">
+                <img src="6447.png"   width="400" height="150" alt="" style="position: relative;bottom: -48px;">
+            </div>
+
+            
+
+        </div>
+        <div class="tab1" style="background-color:white;">
+            <div class="tab1content">
+                <h2 style="font-weight: bolder;">SAC Restaurants -Hot food for now!</h2>
+                <h4>asdfghjkl,zxcvbnm mnjjuiubh jn</h4>
+            </div>
+            <div>
+                <form action="" class="slide">
+                    <img src="italian.jpg" alt="" class="slideimg">
+                    <div class="slidetext">
+                        <h3 style="font-weight: bolder;font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;font-size:larger;">SAC Italian</h3>
+                        <h4 style="font-size: small;">Restaurant 01</h4>
+                        <h5 style="font-size:xx-small;">Burger,Pizza,Pasta</h5>
+                    </div>
+                    <div class="slidetextright">
+                        <h5 style="text-align: left;position: relative;left: 43px;">4.0 <img  src="clipart-gold-star-award-8.png" alt="" style="height: 11px; width: 11px;"></h5>
+                        <h6 style="color: red;font-size: xx-small;line-height: 12px;position: relative;left: 37px;">20% off on deserts</h6>
+
+                    </div>
+
+                </form>
+                <div id="form2">
+                    <form action="" class="slide" id="slideid">
+                        <img src="indian.jpg" alt="" class="slideimg">
+                        <div class="slidetext">
+                            <h3 style="font-weight: bolder;font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;font-size:larger;">SAC Indian</h3>
+                            <h4 style="font-size: small;">Restaurant 02</h4>
+                            <h5 style="font-size:xx-small;">Nan,Rotti,Parata</h5>
+                        </div>
+                        <div class="slidetextright">
+                            <h5 style="text-align: left;position: relative;left: 43px;">4.0 <img  src="clipart-gold-star-award-8.png" alt="" style="height: 11px; width: 11px;"></h5>
+                            <h6 style="color: red;font-size: xx-small;line-height: 12px;position: relative;left: 37px;">30% off on combos</h6>
+
+                        </div>
+
+                    </form>
+                </div>
+                <div id="form3">
+                    <form action="" class="slide" id="slide3id">
+                        <img src="chinees.jpg" alt="" class="slideimg">
+                        <div class="slidetext">
+                            <h3 style="font-weight: bolder;font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;font-size:larger;">SAC Chinese</h3>
+                            <h4 style="font-size: small;">Restaurant 03</h4>
+                            <h5 style="font-size:xx-small;">Noodle,Momo,Rice</h5>
+                        </div>
+                        <div class="slidetextright">
+                            <h5 style="text-align: left;position: relative;left: 43px;">4.0 <img  src="clipart-gold-star-award-8.png" alt="" style="height: 11px; width: 11px;"></h5>
+                            <h6 style="color: red;font-size: xx-small;line-height: 12px;position: relative;left: 37px;">10% off on combos</h6>
+
+                        </div>
+
+                    </form>
+
+                </div>
+            </div>
+        </div>
+        <div class="tab2">
+            <div class="tab1content">
+                <h2 style="font-weight: bolder;">SAC Restaurants -Cold food for now!</h2>
+                <h4>asdfghjkl,zxcvbnm mnjjuiubh jn</h4>
+            </div>
+            <form action="" class="slide">
+                <img src="sac meals.jpg" alt="" class="slideimg">
+                <div class="slidetext">
+                    <h3 style="font-weight: bolder;font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;text-align: center;">SAC Meals</h3>
+                    
+                </div>
+            </form>
+            <div id="form2">
+                <form action="" class="slide" id="slideid">
+                    <img src="sac mealsx.jpg" alt="" class="slideimg">
+                    <div class="slidetext">
+                        <h3 style="font-weight: bolder;font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;text-align: center;">SAC MealX</h3>
+            
+                    </div>
+                </form>    
+            </div>
+            <div class="hm">
+                <form action="" style="text-align: center;">
+                    <h3 style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman';color: navy;">Healthy Meals</h3>
+                    <h6 style="margin-top: 8px; position: relative; top: -17px;">Delivered to you every week</h6>
+                    <button type="submit" class="hmbutton">Calorie Counted</button><br>
+                    <button type="submit" class="hmbutton">Made to order</button><br>
+                    <button type="submit" class="hmbutton">Can be frozen</button>
+                </form>
+                
+            </div>
+        </div>
+        <div id="tab3"style="background-color:white; border-bottom:2px solid black;">
+            <div class="tab3content">
+                <h3>Most Popular</h3>
+                <img class="sweetclass" src="sweet corn1.jpg" alt="">
+                <img class="sweetclass" src="sweet corn2.jpg" alt="">
+                <img class="sweetclass" src="sweet corn3.jpg" alt="">
+            </div>
+        </div>
+        <div id="tab3"style="background-color:white;">
+            <div class="tabcontent4">
+                <h3>Order History</h3>
+                <form action="sample.html"  id="pizza">
+                    <h6 style="font-size:xx-small;">
+                        Pizza
+                        <button style="font-size:xx-small;height: 15px; width: -18px;background-color: silver;color: white;border-color: white;">Track Order</button>
+
+                    </h6>
+                    
+                </form>
+            </div>
+
+
+        </div>
+        <div class="tab2" >
+            <div id="tab2head"><p>Fresh From the sac Kitchen</p></div>
+            <div id="tab2img1">
+                <img src="business.jpg" alt="" id="imgbusiness" class="imgbusiness">
+                <div id="contbns">
+                    <h3>SAC for business</h3>
+                    <h6>Hungry clients or hungry staff,our corporate team can help</h6>
+                    <button type="submit" style="background-color: red;color: white;height: 29px;width: 100px;">contact us</button>
+
+                </div>
+                <img src="mobile app.jpg" alt="" class="imgbusiness" id="imgmobile" >
+                <div id="contmbl">
+                    <h3>SAC mobile app</h3>
+                    <h6>Coming soon</h6>
+                    <button type="submit" style="background-color: red;color: white;height: 29px;width: 100px;">contact us</button>
+
+                </div>
+            </div>    
+        </div>
+        <div class="tabwork">
+            <div id="work"><p>Work with SAC</p></div>
+            <div id="divpartner">
+                <img src="partners.jpg" style="height: 131px;position: relative;left: 179px;" alt="">
+                <div id="contpartner">
+                    <h3>Partners</h3>
+                    <h6>partners with sac and research more</h6>
+                    <button type="submit" style="background-color: green;color: white;text-align:right;position: relative;left: 36px;">contact us</button>
+
+                </div>
+            </div>
+            <div id="divcareer">
+                <img src="careers.jpg" style="height: 131px;position: relative;left: 737px;bottom: -35px;" alt="">
+                <div id="contcareer">
+                    <h3>Careers</h3>
+                    <h6>partners with sac and research more</h6>
+                    <button type="submit" style="background-color: yellow;color: black;position: relative;left: 36px;">contact us</button>
+
+                </div>
+            </div>
+        </div>
+        <div id="footer" style="border-top:2px solid black;">
+            <div style="position: relative;bottom: -39px;">
+                <form action="" style="text-align: center;position: relative;left: -103px; ">
+                    <p>About</p>
+                    <a href="">Blog</a><br>
+                    <a href="">Career</a><br>
+                    <a href="">Press</a>
+                </form>
+                <form action="" style="text-align: center;position: relative;left: -29px;top: -109px;">
+                    <p>Get Help</p>
+                    <a href="">Contact</a><br>
+                    <a href="">FAQ</a>
+                </form>
+                <form action=""style="text-align: center;position: relative;left: 48px;top: -195px;">
+                    <p>Legal</p>
+                    <a href="">Terms</a><br>
+                    <a href="">Privacy</a>
+                </form>
+            </div>
+            <img src="iOS_ajgrty.png" height="60" width="200" alt="" style="position: relative;left: 658px;bottom: 230px;">
+            <img src="play_ip0jfp.png" height="60" width="200" alt="" style="position: relative;left: 667px;bottom: 231px;">
+
+        </div>
+        <div id="endlogo">
+            <p style="text-align: center;font-size: larger;font-weight: bolder;">SAC LOGO</p>
+
+        </div>
+        <div id="end">
+            <p style="text-align: center;">Sac @2020 All Rights Reserved</p>
+
+        </div>
+    </div>
+</body>
+</html>
